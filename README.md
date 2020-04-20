@@ -1,6 +1,6 @@
-# Software Stack for JEDI applications
+# Software Stack for UFS and JEDI applications
 
-This repository provides a unified, module-based build system for building the JEDI software stack.
+This repository provides a unified, module-based build system for building the external software stack required for UFS and JEDI.
 The motivation is to define a common set of software packages and versions to be used for applications, development, testing and across multiple platforms including software containers (Docker, Singularity, Charliecloud), cloud computing instances (e.g. AWS, Azure, Google), and HPC systems (e.g. NOAA, NASA, NCAR).
 
 We want to provide a common set of software libraries to JEDI users and developers in order to minimize problems associated with incompatible or outdated software versions.  However, we also wish to take advantage of site-specific configurations and optimizations that exploit the local hardware.  For this reason, the build process is designed to use native installations of the compiler suite and the MPI libraries.  The rest of the software stack is build from source for the specified compiler/mpi combination.
