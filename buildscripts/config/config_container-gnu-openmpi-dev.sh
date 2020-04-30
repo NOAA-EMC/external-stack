@@ -63,6 +63,7 @@ export        STACK_BUILD_XERCES=N
 export        STACK_BUILD_TKDIFF=N
 export    STACK_BUILD_BOOST_FULL=N
 export          STACK_BUILD_ESMF=N
+export        STACK_BUILD_WGRIB2=N
 export      STACK_BUILD_BASELIBS=N
 export     STACK_BUILD_PDTOOLKIT=N
 export          STACK_BUILD_TAU2=N
