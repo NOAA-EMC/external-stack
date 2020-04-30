@@ -140,6 +140,7 @@ The remaining items enable or disable builds of each software package.  The foll
   - PNG
   - JPEG
   - Jasper
+  - WGRIB2
   - Armadillo
   - Boost (full installation)
   - FFTW
